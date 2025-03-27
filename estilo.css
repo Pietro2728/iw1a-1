@@ -1,12 +1,12 @@
 body, html{
-    background-color: crimson;
+    background-color: #ffffff;
 }
 
 div{
-    border: 5px solid #00ff00
+   
 }
 p{
-    border: 5px solid #00ff00
+   
 }
 .card{
     background-color: white;
@@ -19,4 +19,31 @@ p{
     margin-right: 10px;
     margin-bottom: 100px;
     border:3px double fuchsia
+}
+.card-botao{
+    width: 100%; /* Largura do elemento */
+    height: 50px; /* Altura elemento */
+    padding: 20px 0; /* espaçamento interno*/
+    background-color: #ffffff; /* cor de fundo */
+    color: #ffffff; /* cor do texto */
+    font-family: Arial; /* tipo de fonte */
+    font-weight: bold; /* peso da fonte negrito */
+}
+
+.card-descricao{
+    font-family: Arial; /* tipo da fonte */
+    font-weight: bold; /* Negrito */
+    font-size:18px;
+    margin-top:10px; /* Margen acima */
+    margin-bottom: 40px; /* Margen embaixo */
+    padding-left: 10px;/* Espaçamento interno esquerda */
+    padding-right: 10px;/* espaçamento interno direita */
+    text-align: center;/*Alinha o texto no centro */ 
+}
+.card-preco{
+    font-family: Impact;/* tipo de fonte */
+    font-size:25px; /* Tamanho da fonte */
+    color: #ff6500; /* Cor da fonte */
+    margin-bottom: 45px; /* Margen de baixo */
+    padding-left: 10%; /*espaçamento interno esquerda */
 }
